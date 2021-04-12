@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'sheerun/vim-polyglot'
 Plug 'rust-lang/rust.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jparise/vim-graphql'
 
 Plug 'morhetz/gruvbox'
 

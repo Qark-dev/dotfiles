@@ -11,7 +11,7 @@ $mod+Return
 --> kill focused window (exit / terminate)
 $mod+Shift+C
 
-$mod+w --> open Browser (Midori)
+$mod+w --> open Browser (Firefox)
 $mod+n --> open Filebrowser (PCmanfm)
 F9 --> app menu (rofi -- nice menu)
 Print-key --> screenshot

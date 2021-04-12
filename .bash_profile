@@ -3,7 +3,6 @@
 #
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-source "$HOME/.cargo/env"
 
 # Make tab completion case insensitive
 bind "set completion-ignore-case on"
@@ -17,3 +16,5 @@ alias ....="cd ../../.."
 if [ -f ~/.bash_profile.local ]; then
 	. ~/.bash_profile.local
 fi
+
+export PATH=$HOME/.cargo/bin:$PATH
